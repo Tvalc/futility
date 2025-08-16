@@ -1,0 +1,20 @@
+{
+    "martian": {
+        "id": "martian",
+        "name": "Martian Defender",
+        "upgrades": [
+            {"id":"m1","title":"Pulse Shield","desc":"Absorb damage for 3s","branch":"defense"},
+            {"id":"m2","title":"Ion Blast","desc":"Fires 2 shots at once","branch":"offense"},
+            {"id":"m3","title":"Overload","desc":"Doubles energy regen","branch":"utility"}
+        ]
+    },
+    "earthling": {
+        "id": "earthling",
+        "name": "Earthling Commando",
+        "upgrades": [
+            {"id":"e1","title":"Dash","desc":"Move rapidly for a short time","branch":"utility"},
+            {"id":"e2","title":"Power Shot","desc":"Shots deal double damage","branch":"offense"},
+            {"id":"e3","title":"Medkit","desc":"Regain 20 HP after each phase","branch":"defense"}
+        ]
+    }
+}
