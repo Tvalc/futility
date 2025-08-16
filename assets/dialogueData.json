@@ -1,0 +1,15 @@
+{
+    "intro": [
+        {"char":"martian","text":"Orks inbound! Defend the outpost at all costs!"},
+        {"char":"earthling","text":"Earth Command: All units, hold the line!"},
+        {"char":"martian","text":"We'll make our stand here."}
+    ],
+    "victory": [
+        {"char":"martian","text":"Sector secured. For Mars!"},
+        {"char":"earthling","text":"We did it! Prepare for the next wave."}
+    ],
+    "gameover": [
+        {"char":"martian","text":"Systems failing... can't hold..."},
+        {"char":"earthling","text":"We're overwhelmed! Fall back!"}
+    ]
+}
