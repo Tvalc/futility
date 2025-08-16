@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Siege: Ork Onslaught</title>
+    <meta name="viewport" content="width=800,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="600" tabindex="1"></canvas>
+        <div id="ui-overlay"></div>
+    </div>
+    <!-- Script loading order is critical for dependencies -->
+    <script src="gameConfig.js"></script>
+    <script src="utils/MathUtils.js"></script>
+    <script src="utils/CollisionUtils.js"></script>
+    <script src="utils/ResponsiveUtils.js"></script>
+    <script src="systems/InputManager.js"></script>
+    <script src="systems/AudioManager.js"></script>
+    <script src="systems/SaveManager.js"></script>
+    <script src="systems/ProgressionManager.js"></script>
+    <script src="systems/DialogueManager.js"></script>
+    <script src="systems/UpgradeManager.js"></script>
+    <script src="systems/AssetGenerator.js"></script>
+    <script src="systems/PerformanceManager.js"></script>
+    <script src="entities/Player.js"></script>
+    <script src="entities/PlayerMartian.js"></script>
+    <script src="entities/PlayerEarthling.js"></script>
+    <script src="entities/Enemy.js"></script>
+    <script src="entities/OrkMech.js"></script>
+    <script src="entities/OrkInfantry.js"></script>
+    <script src="entities/Boss.js"></script>
+    <script src="entities/Projectile.js"></script>
+    <script src="entities/Powerup.js"></script>
+    <script src="entities/EnvironmentalHazard.js"></script>
+    <script src="entities/Upgrade.js"></script>
+    <script src="ui/HUD.js"></script>
+    <script src="ui/DialogBox.js"></script>
+    <script src="ui/UpgradeTree.js"></script>
+    <script src="ui/AvatarDisplay.js"></script>
+    <script src="ui/PhaseIndicator.js"></script>
+    <script src="scenes/BootScene.js"></script>
+    <script src="scenes/PreloadScene.js"></script>
+    <script src="scenes/MenuScene.js"></script>
+    <script src="scenes/CharacterSelectScene.js"></script>
+    <script src="scenes/SettingsScene.js"></script>
+    <script src="scenes/CutsceneScene.js"></script>
+    <script src="scenes/LevelSelectScene.js"></script>
+    <script src="scenes/PhaseIntroScene.js"></script>
+    <script src="scenes/GameScene.js"></script>
+    <script src="scenes/UpgradeScene.js"></script>
+    <script src="scenes/PauseScene.js"></script>
+    <script src="scenes/GameOverScene.js"></script>
+    <script src="scenes/VictoryScene.js"></script>
+    <script src="scenes/CreditsScene.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
