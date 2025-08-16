@@ -1,0 +1,12 @@
+[
+    {"id":0,"name":"Pluto Outpost","phases":3},
+    {"id":1,"name":"Neptune Base","phases":3},
+    {"id":2,"name":"Uranus Field","phases":3},
+    {"id":3,"name":"Saturn Rings","phases":3},
+    {"id":4,"name":"Jupiter Storm","phases":3},
+    {"id":5,"name":"Mars Siege","phases":3},
+    {"id":6,"name":"Venus Sabotage","phases":3},
+    {"id":7,"name":"Mercury Inferno","phases":3},
+    {"id":8,"name":"Lunar Defense","phases":3},
+    {"id":9,"name":"Earth's Last Stand","phases":3}
+]
